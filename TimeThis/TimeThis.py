@@ -9,6 +9,6 @@ class TimeThis:
         end_time = time.time()
         event_time = round(end_time - self.start_time, 2)
         if self.event_name is not None:
-            st.write(f'{self.event_name} execution time = {event_time}s')
+            print(f'{self.event_name} execution time = {event_time}s')
         else:
-            st.write(f'execution time = {event_time}s')
+            print(f'execution time = {event_time}s')

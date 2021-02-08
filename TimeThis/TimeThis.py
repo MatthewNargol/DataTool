@@ -1,3 +1,5 @@
+import time
+
 class TimeThis:
     def __init__(self, event_name=None):
         self.event_name = event_name
